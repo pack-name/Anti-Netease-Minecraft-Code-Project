@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "shield",
+					"pivot": [1, 15.5, 3],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [0, 25, 0.001], "size": [2, 6, 6], "uv": [0, 23]},
+						{"origin": [-6, 17, -1], "size": [15, 22, 1], "uv": [0, 0]},
+						{"origin": [-6, 39, -1], "size": [5, 1, 1], "uv": [10, 25]},
+						{"origin": [4, 39, -1], "size": [5, 1, 1], "uv": [10, 25], "mirror": true},
+						{"origin": [-6, 16, -1], "size": [5, 1, 1], "uv": [22, 23]},
+						{"origin": [4, 15, -1], "size": [4, 1, 1], "uv": [22, 25]},
+						{"origin": [4, 16, -1], "size": [5, 1, 1], "uv": [10, 23]},
+						{"origin": [-5, 15, -1], "size": [4, 1, 1], "uv": [10, 27]}
+					]
+				}
+			]
+		}
+	]
+}
